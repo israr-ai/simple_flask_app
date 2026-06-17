@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return """
-    <h1>Deployment Successful 🚀 done</h1>
+    <h1>Deployment Successful 🚀</h1>
     <h2>AWS Elastic Beanstalk + CodePipeline Working!</h2>
     """
 
